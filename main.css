@@ -194,6 +194,24 @@ h1{
   font-family: var(--text-font), sans-serif;
 }
 
+.read-more{
+  display: flex;
+  align-items: center;
+}
+
+.read-more:hover{
+  cursor: pointer;
+}
+
+.read-more span{
+  margin-left: 10px;
+}
+
+.read-more:hover span{
+  margin-left: 20px;
+  transition: .5s ease;
+}
+
 /* Figure section */
 
 .picture-section{
